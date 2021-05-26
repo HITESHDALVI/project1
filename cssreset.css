@@ -1,0 +1,219 @@
+.sloganContainer {
+display: 'flex';
+flex-direction: 'column';
+align-items: 'center';
+justify-content: 'center';
+}
+.imgContainer {
+display: 'flex'!important;
+align-items: 'center' !important;
+justify-content: 'center' !important;
+object-fit: 'contain' !important;
+   background-color: #ffdcbe;
+padding-top: 25%;
+}
+.main {
+display: 'flex';
+flex-wrap: 'wrap';
+margin: '20px'
+
+}
+.mainHeading{
+color: '#DC143C';
+font-family: 'Slabo 27px', serif;
+font-size: "50px";
+padding-left: '20px';
+padding-right: '0px'
+}
+.getStarted {
+color: '#FF0000';
+background-Color: '#cfcfcf';
+font-family: 'Farro', sans-serif;
+font-size: "18.5px";
+padding-left: '20px';
+padding-right: '20px';
+margin-left: '27px';
+
+}
+.issueBox{
+display: 'flex';
+padding: '20px';
+font-family: 'Slabo 27px', serif;
+
+}
+.doYou{
+font-Size: "51px";
+text-align: 'right';
+background-color: '#DC143C';
+color: '#fff';
+font-weight:" 800";
+
+}
+.haveBlock {
+font-size: "27.5px";
+padding-top: '10px';
+}
+.solution{
+padding: '20px';
+font-size: "25px";
+text-align: 'left';
+padding-left: '20px';
+padding-right: '20px';
+display: 'flex';
+flex-direction: 'column';
+align-items: 'center';
+justify-content: 'center';
+}
+.aboutUs{
+padding-top: '10px';
+padding-bottom: '60px';
+margin-top: '0px';
+font-size: "25px";
+text-align: 'center';
+}
+*{
+margin:0px;
+padding: 0px;
+}
+html{
+scroll-behavior: smooth;
+}
+:root{
+--navbar-height:60px;
+
+}
+#mainBox{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: sticky;
+top: 0px;
+font-family: 'Noto Sans JP', sans-serif;
+}
+#mainBox::before{
+background-color: rgb(255 225 225 / 81%);
+   
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+height: 100px;
+width: 100%;
+z-index: -1;
+opacity: 0.4;
+
+}
+#logo img{
+align-items:center;
+margin: 20px 20px;
+height: 60px;
+
+}
+#navbar ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+#navbar ul li{
+list-style: none;
+   
+}
+#navbar ul li a{
+display: block;
+cursor: pointer;
+text-align: center;
+color: rgb(17, 16, 16);
+text-decoration: none;
+margin: 10px 20px;
+padding: 8px 20px;
+border-radius: 20px;
+}
+#navbar ul li a:hover{
+color: white;
+background-color: rgb(19, 16, 16);
+}
+
+#home{
+display: flex;
+flex-direction: column;
+background-color: #ffdcbe;
+padding: 3px 3px;
+height:655px;
+justify-content: center;
+align-items: center;
+}
+#home h1{
+color: rgb(0, 0, 0);
+text-align: center;
+}
+#home p{
+color: black;
+text-align: center;
+font-size: 1.5rem;
+}
+h1{
+color: rgb(0, 0, 0);
+text-align: center;
+}
+#services{
+margin: 10px;
+display: flex;
+flex-direction: column;
+ justify-content: center;
+align-items: center;
+
+}
+.box{
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   width: auto;
+ display: flex;
+flex-direction: row;
+padding: 10px;
+margin: 5px;
+border-radius: 25px;
+background-color: rgb(255, 255, 255);
+
+}
+#services .box img{
+display: flex;
+height: 160px;
+
+margin: auto;
+}
+
+#services .box p{
+font-size: 1.1rem;
+
+}
+.hprimary{
+font-size: 2rem;
+padding:12px;
+text-align: center;
+font-family: 'Yusei Magic', sans-serif;
+}
+.hsecondary{
+
+font-size: 2.1rem;
+padding:12px;
+text-align: center;
+font-family: 'Yusei Magic', sans-serif;
+}
+.btn{
+padding:6px 20px;
+border:2px solid whitesmoke;
+background-color: black;
+color: white;
+margin: 17px;
+font-size: 1.5rem;
+border-radius: 5px;
+cursor: pointer;
+}
+.center{
+text-align: center;
+}
+/* #logo2 img{
+align-items:center;
+margin: 20px 20px;
+} */
+ 
